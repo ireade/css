@@ -29,10 +29,10 @@ table, caption,
 tbody, tfoot, thead,
 tr, th, td
  {
-  margin: 0;
-  padding: 0;
-  border: 0;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 
 /* Reset font */
@@ -99,12 +99,15 @@ a:focus {
   text-decoration: underline;
 }
 
-/* Images */
+/* Media */
 
 img,
 video,
 {
   max-width: 100%;
+}
+
+img {
   border-style: none;
 }
 
@@ -113,7 +116,6 @@ video,
 [hidden] {
   display: none !important;
 }
-
 
 /* outline */
 

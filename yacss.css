@@ -85,16 +85,24 @@ a:focus {
   text-decoration: underline;
 }
 
-/* Images */
+/* Media */
 img,
 video {
   max-width: 100%;
+}
+
+img {
   border-style: none;
 }
 
 /* Hidden */
 [hidden] {
   display: none !important;
+}
+
+/* outline */
+:focus:not(:focus-visible) {
+  outline: none;
 }
 
 /* */
