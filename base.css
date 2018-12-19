@@ -108,6 +108,19 @@ img {
   border-style: none;
 }
 
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+
 /* Attributes & states
  * *********************************** */
 [hidden] {
