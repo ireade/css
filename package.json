@@ -1,0 +1,22 @@
+{
+  "name": "yacss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass base.scss base.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ireade/yacss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ireade/yacss/issues"
+  },
+  "homepage": "https://github.com/ireade/yacss#readme",
+  "devDependencies": {
+    "sass": "^1.15.2"
+  }
+}

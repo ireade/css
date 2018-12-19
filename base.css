@@ -1,9 +1,16 @@
-/* Reset margin, padding, border */
+/* ***********************************
+ *
+ *    Ire's CSS Reset & Base
+ *
+ * *********************************** */
+/* Reset margin, padding, border
+ * *********************************** */
 html, body,
 h1, h2, h3, h4, h5, h6,
 a, p, span,
-em, small, strong, sub, sup,
-strike, s, mark, del, ins,
+em, small, strong,
+sub, sup,
+mark, del, ins,
 abbr, dfn,
 blockquote, q, cite,
 code, pre,
@@ -23,10 +30,10 @@ tr, th, td {
   margin: 0;
   padding: 0;
   border: 0;
-  vertical-align: baseline;
 }
 
-/* Reset font */
+/* Typography
+ * *********************************** */
 html {
   font-size: 62.5%;
 }
@@ -40,7 +47,27 @@ body {
   font: inherit;
 }
 
-/* HTML5 display-role reset for older browsers */
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+small,
+sup,
+sub {
+  font-size: small;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Layout
+ * *********************************** */
 article,
 aside,
 footer,
@@ -51,7 +78,6 @@ main {
   display: block;
 }
 
-/* Box sizing */
 * {
   box-sizing: border-box;
 }
@@ -61,31 +87,18 @@ main {
   box-sizing: inherit;
 }
 
-/* Table */
+/* Elements
+ * *********************************** */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* Lists */
 ol,
 ul {
   list-style: none;
 }
 
-/* Links */
-a,
-a:visited {
-  color: inherit;
-}
-
-a:hover,
-a:active,
-a:focus {
-  text-decoration: underline;
-}
-
-/* Media */
 img,
 video {
   max-width: 100%;
@@ -95,20 +108,27 @@ img {
   border-style: none;
 }
 
-/* Hidden */
+/* Attributes & states
+ * *********************************** */
 [hidden] {
   display: none !important;
 }
 
-/* outline */
+[disabled] {
+  cursor: not-allowed;
+}
+
 :focus:not(:focus-visible) {
   outline: none;
 }
 
-/* */
+/* Utility classes
+ * *********************************** */
 .sr-only {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
+  left: -9999px;
+  top: -9999px;
 }
 
-/*# sourceMappingURL=yacss.css.map */
+/*# sourceMappingURL=base.css.map */
