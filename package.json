@@ -1,5 +1,5 @@
 {
-  "name": "yacss",
+  "name": "css",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ireade/yacss.git"
+    "url": "git+https://github.com/ireade/css.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ireade/yacss/issues"
+    "url": "https://github.com/ireade/css/issues"
   },
-  "homepage": "https://github.com/ireade/yacss#readme",
+  "homepage": "https://github.com/ireade/css#readme",
   "devDependencies": {
     "sass": "^1.15.2"
   }
