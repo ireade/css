@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6,
 a, p, span,
 em, small, strong,
 sub, sup,
-mark, del, ins,
+mark, del, ins, strike,
 abbr, dfn,
 blockquote, q, cite,
 code, pre,
@@ -47,21 +47,9 @@ body {
 }
 
 * {
-    font: inherit;
-}
-
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-}
-
-small,
-sup,
-sub {
-    font-size: small;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 a,
